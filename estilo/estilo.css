@@ -221,3 +221,20 @@ footer p{
     text-align: center;
     font-weight: bold;
 }
+
+
+/* ESTILO DA PÁGINA DE BUSCAS*/
+div#questão{
+    text-align: center;
+    margin: 40px 0px 20px 0px;
+}
+
+div#questão select{
+   font-size: 16px;
+   padding: 5px;
+}
+
+div#questão input{
+    font-size: 16px;
+    padding: 5px;
+}
