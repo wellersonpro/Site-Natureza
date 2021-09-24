@@ -18,6 +18,12 @@
     format('opentype')
 }
 
+@font-face {
+    font-family: 'formas';
+    src: url(../fontes/e_commerce/E-commerce.ttf)
+    format('opentype')
+}
+
 @media screen and (max-width: 420px) {
     body header{
         height: 126px;
@@ -237,4 +243,32 @@ div#questão select{
 div#questão input{
     font-size: 16px;
     padding: 5px;
+}
+
+p#lupa {
+    font-family: 'formas';
+    font-size: 12em;
+    text-align: center;
+    margin-top: 40px;
+    opacity: 20%;
+    transition-duration: 0.2s;
+}
+
+p#lupa:hover {
+    transform: scale(1.40, 1.40);
+}
+
+h1#estação {
+    margin: 10px;
+}
+
+p#textobusca {
+    margin-bottom: 40px;
+    text-align: justify;
+    padding: 1px 20px 1px 20px;
+}
+
+img#fotoestação {
+    display: block;
+    margin: 30px auto 2px auto;
 }
