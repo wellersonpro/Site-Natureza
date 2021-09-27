@@ -25,28 +25,44 @@
 }
 
 @media screen and (max-width: 420px) {
-    body header{
+    body header {
         height: 126px;
     }
-    body header nav li{
+    body header nav li {
         display: block;
         margin: 0px 0px 10px 0px;
         width: 100%;
     }
 
-    body main div.espaço{
+    body main div.espaço {
         display: block;
         margin: 20px auto;
     }
 }
 
 @media screen and (max-width: 580px) {
-    body main div.espaço{
+    body main div.espaço {
         display: block;
         margin: 20px auto;
     }
+}
 
 
+
+
+
+/*ESTILO DA PÁGINA DE BUSCAS: MEDIA QUERY*/
+
+@media screen and (min-width: 320px) {
+    body main#buscas {
+        width: 90.2%;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    body main#buscas {
+        width: 91.5%;
+    }
 }
 
 @media screen and (min-width: 850px) {
@@ -67,6 +83,8 @@
     }
 }
 
+
+/* FIM */
 
 /*
 #156117
@@ -97,24 +115,24 @@ html, body {
     padding: 0px;
 }
 
-body{
+body {
     background-color: var(--cor02);
     display: flex;
     flex-direction: column;
 }
 
-header{
+header {
     background-color: var(--cor01);
     text-align: center;
     height: 37px;
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.438);
 }
 
-nav li{
+nav li {
     display: inline-block;
 }
 
-nav li a{
+nav li a {
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
@@ -124,11 +142,11 @@ nav li a{
     transition-duration: 0.2s;
 }
 
-nav li a:hover{
+nav li a:hover {
     background-color: var(--cor03);
 }
 
-main#home{
+main#home {
     background-color:white;
     margin: 20px auto 20px auto;
 
@@ -140,26 +158,26 @@ main#home{
     flex: 1 0 auto;
 }
 
-main img.principal{
+main img.principal {
     width: 100%;
 }
 
-main h1,h2{
+main h1,h2 {
     text-align: center;
 }
 
-main p.textoprincipal{
+main p.textoprincipal {
     margin-bottom: 65px;
     text-align: justify;
     padding: 20px 5px;
 }
 
-main p.texto{
+main p.texto {
     text-align: justify;
     padding: 20px 5px;
 }
 
-main a{
+main a {
     text-decoration: none;
     color:var(--cor01);
     font-weight: bold;
@@ -167,19 +185,19 @@ main a{
     padding: 1px 4px 1px 4px;
 }
 
-main a.simbolo:after{
+main a.simbolo:after {
     content: '\00A0\1F517'
 }
 
-main a.simbolo:hover{
+main a.simbolo:hover {
     background-color:var(--cor02)
 }
 
-abbr{
+abbr {
     text-decoration: none;
 }
 
-div.espaço{
+div.espaço {
     display: inline-block;
     background-color:var(--cor05);
     width: 175px;
@@ -191,11 +209,11 @@ div.espaço{
     transition-duration: 0.3s;
 }
 
-div.espaço:hover{
+div.espaço:hover {
     transform: scale(1.20, 1.20);
 }
 
-div.espaço p#inverno{
+div.espaço p#inverno {
     font-family: 'inverno';
     font-size: 4em;
     color: white;
@@ -204,7 +222,7 @@ div.espaço p#inverno{
     left: 58px;
 }
 
-div.espaço p#primavera{
+div.espaço p#primavera {
     font-family: 'primavera-verao';
     font-size: 4em;
     color: white;
@@ -213,7 +231,7 @@ div.espaço p#primavera{
     left: 80px;
 }
 
-div.espaço p#verão{
+div.espaço p#verão {
     font-family: 'primavera-verao';
     font-size: 4em;
     color: white;
@@ -222,7 +240,7 @@ div.espaço p#verão{
     left: 80px;
 }
 
-div.espaço p#outono{
+div.espaço p#outono {
     font-family: 'outono';
     font-size: 3em;
     color: white;
@@ -231,7 +249,7 @@ div.espaço p#outono{
     left: 80px;
 }
 
-div.espaço p.periodo{
+div.espaço p.periodo {
     text-align: center;
     margin: 0px 19px;
     color: white;
@@ -240,17 +258,21 @@ div.espaço p.periodo{
     left: 0px;
 }
 
-footer{
+footer {
     flex-shrink: 0;
     background-color:var(--cor01);
     padding: 8px;
+    height: 50px;
 }
 
-footer p{
+footer p {
     color: white;
     text-align: center;
     font-weight: bold;
 }
+
+
+
 
 
 /* ESTILO DA PÁGINA DE BUSCAS*/
@@ -265,17 +287,17 @@ main#buscas {
     border-radius: 16px;
     flex: 1 0 auto;
 }
-div#questão{
+div#questão {
     text-align: center;
     margin: 40px 0px 20px 0px;
 }
 
-div#questão select{
+div#questão select {
    font-size: 16px;
    padding: 5px;
 }
 
-div#questão input{
+div#questão input {
     font-size: 16px;
     padding: 5px;
 }
@@ -303,3 +325,4 @@ img#fotoestação {
     margin: 30px auto 1px auto;
     width: 95%;
 }
+/* FIM */
