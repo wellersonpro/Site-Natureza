@@ -48,44 +48,6 @@
 }
 
 
-
-
-
-/*ESTILO DA PÁGINA DE BUSCAS: MEDIA QUERY*/
-
-@media screen and (min-width: 320px) {
-    body main#buscas {
-        width: 90.2%;
-    }
-}
-
-@media screen and (min-width: 375px) {
-    body main#buscas {
-        width: 91.5%;
-    }
-}
-
-@media screen and (min-width: 850px) {
-    body main#buscas {
-        width: 62%;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    body main#buscas {
-        width: 62%;
-    }
-}
-
-@media screen and (min-width: 1600px) {
-    body main#buscas {
-        width: 41.4%;
-    }
-}
-
-
-/* FIM */
-
 /*
 #156117
 #77E679
@@ -109,22 +71,17 @@
     
 }
 
-html, body {
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-}
+
 
 body {
     background-color: var(--cor02);
-    display: flex;
-    flex-direction: column;
 }
 
 header {
     background-color: var(--cor01);
     text-align: center;
     height: 37px;
+    padding-bottom: 8px;
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.438);
 }
 
@@ -137,7 +94,7 @@ nav li a {
     font-size: 20px;
     font-weight: bold;
     color: white;
-    padding: 8px;
+    padding: 12px;
     line-height: 34px;
     transition-duration: 0.2s;
 }
@@ -146,7 +103,7 @@ nav li a:hover {
     background-color: var(--cor03);
 }
 
-main#home {
+main {
     background-color:white;
     margin: 20px auto 20px auto;
 
@@ -155,7 +112,6 @@ main#home {
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.438);
     padding: 15px 15px 30px 15px;
     border-radius: 16px;
-    flex: 1 0 auto;
 }
 
 main img.principal {
@@ -259,7 +215,6 @@ div.espaço p.periodo {
 }
 
 footer {
-    flex-shrink: 0;
     background-color:var(--cor01);
     padding: 8px;
     height: 50px;
@@ -270,59 +225,3 @@ footer p {
     text-align: center;
     font-weight: bold;
 }
-
-
-
-
-
-/* ESTILO DA PÁGINA DE BUSCAS*/
-
-main#buscas {
-    background-color:white;
-    margin: 20px auto 20px auto;
-
-    width: 94%;
-    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.438);
-    padding: 15px 15px 30px 15px;
-    border-radius: 16px;
-    flex: 1 0 auto;
-}
-div#questão {
-    text-align: center;
-    margin: 40px 0px 20px 0px;
-}
-
-div#questão select {
-   font-size: 16px;
-   padding: 5px;
-}
-
-div#questão input {
-    font-size: 16px;
-    padding: 5px;
-}
-
-p#lupa {
-    font-family: 'formas';
-    font-size: 12em;
-    text-align: center;
-    margin-top: 40px;
-    opacity: 20%;
-}
-
-h1#estação {
-    margin: 10px;
-}
-
-p#textobusca {
-    margin-bottom: 40px;
-    text-align: justify;
-    padding: 1px 20px 1px 20px;
-}
-
-img#fotoestação {
-    display: block;
-    margin: 30px auto 1px auto;
-    width: 95%;
-}
-/* FIM */
