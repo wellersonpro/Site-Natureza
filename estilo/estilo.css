@@ -146,7 +146,8 @@ main a.simbolo:after {
 }
 
 main a.simbolo:hover {
-    background-color:var(--cor02)
+    background-color:var(--cor01);
+    color: var(--cor03);
 }
 
 abbr {
