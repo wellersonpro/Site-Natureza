@@ -111,7 +111,6 @@ main {
     max-width: 780px;
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.438);
     padding: 15px 15px 30px 15px;
-    border-radius: 16px;
 }
 
 main img.principal {
@@ -159,8 +158,6 @@ div.espaço {
     background-color:var(--cor05);
     width: 175px;
     height: 240px;
-    border-top-left-radius: 120px;
-    border-bottom-right-radius: 120px;
     margin: 8px;
     position: relative;
     transition-duration: 0.3s;
@@ -176,7 +173,7 @@ div.espaço p#inverno {
     color: white;
     position: absolute;
     top: 15px;
-    left: 58px;
+    left: 48px;
 }
 
 div.espaço p#primavera {
@@ -185,7 +182,7 @@ div.espaço p#primavera {
     color: white;
     position: absolute;
     top: 7px;
-    left: 80px;
+    left: 70px;
 }
 
 div.espaço p#verão {
@@ -194,7 +191,7 @@ div.espaço p#verão {
     color: white;
     position: absolute;
     top: 7px;
-    left: 80px;
+    left: 70px;
 }
 
 div.espaço p#outono {
@@ -203,7 +200,7 @@ div.espaço p#outono {
     color: white;
     position: absolute;
     top: 17px;
-    left: 80px;
+    left: 65px;
 }
 
 div.espaço p.periodo {
