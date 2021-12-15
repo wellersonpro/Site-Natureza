@@ -326,3 +326,43 @@ img#fotoestação {
     width: 95%;
 }
 /* FIM */
+
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+form section {
+    margin-top: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 50px;
+    text-align: right;
+}
+
+input, textarea {
+    width: 250px;
+    box-sizing: border-box;
+    border: 2px solid #999;
+}
+
+input:focus, textarea:focus {
+    border: 1px solid black;
+}
+
+textarea {
+    vertical-align: top;
+    height: 100px;
+    resize: vertical, horizontal;
+}
+
+section.botao {
+    padding: 50px;
+    margin-left: .5em;
+}
