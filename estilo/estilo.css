@@ -148,7 +148,7 @@ nav li a:hover {
 
 main#home {
     background-color:white;
-    margin: 20px auto 20px auto;
+    margin: 40px auto;
 
     min-width: 280px;
     max-width: 780px;
@@ -279,7 +279,7 @@ footer p {
 
 main#buscas {
     background-color:white;
-    margin: 20px auto 20px auto;
+    margin: 40px auto;
 
     width: 94%;
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.438);
@@ -328,28 +328,48 @@ img#fotoestação {
 /* FIM */
 
 
+
+
+
+/* ESTILO DDA PÁGINA CONTATOS */
 form {
-    margin: 0 auto;
-    width: 400px;
+    background-color: var(--cor05);
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 100px auto;
+    max-width: 680px;
     padding: 1em;
-    border: 1px solid black;
     border-radius: 1em;
+    color: white;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.438);
 }
 
 form section {
     margin-top: 20px;
+    /*background-color: rgba(137, 43, 226, 0.377);*/
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 label {
-    display: inline-block;
-    width: 50px;
-    text-align: right;
+    /*background-color: rgba(0, 0, 255, 0.274);*/
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    
 }
 
 input, textarea {
+    font-size: 16px;
     width: 250px;
+    height: 40px;
     box-sizing: border-box;
-    border: 2px solid #999;
+    border: 2px solid var(--cor05);
+    border-radius: 10px;
+    padding: 5px;
 }
 
 input:focus, textarea:focus {
@@ -363,6 +383,21 @@ textarea {
 }
 
 section.botao {
-    padding: 50px;
-    margin-left: .5em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
 }
+
+section.botao input#send {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: var(--cor05);
+    border: 1px solid rgba(0, 0, 0, 0.486);
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* FIM */
