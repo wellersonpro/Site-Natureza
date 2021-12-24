@@ -331,14 +331,16 @@ img#fotoestação {
 
 
 
-/* ESTILO DA PÁGINA CONTATOS */
+/* ESTILO DA PÁGINA TABELA */
 
 caption {
-    background-color: var(--cor05);
+    background-color: var(--cor01);
     border: 1px solid black;
     padding: 8px;
-    height: 80px;
+    height: 40px;
     font-size: 23px;
+    color: white;
+    line-height: 40px;
 }
 
 table {
@@ -347,17 +349,16 @@ table {
     width: 70%;
 }
 
+th {
+    background-color: var(--cor01);
+    color: white;
+}
+
 th, td {
     border: 1px solid black;
     padding: 5px;
     text-align: center;
-    height: 80px;
+    height: 40px;
     font-size: 20px;
-    transition-duration: .4s;
-}
-
-th:hover, td:hover {
-    background-color: var(--cor02);
-    color: white;
 }
 /* FIM */
