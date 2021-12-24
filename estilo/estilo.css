@@ -105,7 +105,7 @@ nav li a:hover {
 
 main {
     background-color:white;
-    margin: 20px auto 20px auto;
+    margin: 40px auto;
 
     min-width: 280px;
     max-width: 780px;
@@ -223,3 +223,95 @@ footer p {
     text-align: center;
     font-weight: bold;
 }
+
+
+
+
+
+/* ESTILO DA PÁGINA DE BUSCAS*/
+
+main#buscas {
+    background-color:white;
+    margin: 40px auto;
+
+    width: 94%;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.438);
+    padding: 15px 15px 30px 15px;
+    border-radius: 16px;
+    flex: 1 0 auto;
+}
+div#questão {
+    text-align: center;
+    margin: 40px 0px 20px 0px;
+}
+
+div#questão select {
+   font-size: 16px;
+   padding: 5px;
+}
+
+div#questão input {
+    font-size: 16px;
+    padding: 5px;
+}
+
+p#lupa {
+    font-family: 'formas';
+    font-size: 12em;
+    text-align: center;
+    margin-top: 40px;
+    opacity: 20%;
+}
+
+h1#estação {
+    margin: 10px;
+}
+
+p#textobusca {
+    margin-bottom: 40px;
+    text-align: justify;
+    padding: 1px 20px 1px 20px;
+}
+
+img#fotoestação {
+    display: block;
+    margin: 30px auto 1px auto;
+    width: 95%;
+}
+/* FIM */
+
+
+
+
+
+/* ESTILO DA PÁGINA TABELA */
+
+caption {
+    background-color: var(--cor01);
+    border: 1px solid black;
+    padding: 8px;
+    height: 40px;
+    font-size: 23px;
+    color: white;
+    line-height: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 50px auto;
+    width: 70%;
+}
+
+th {
+    background-color: var(--cor01);
+    color: white;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    height: 40px;
+    font-size: 20px;
+}
+/* FIM */
