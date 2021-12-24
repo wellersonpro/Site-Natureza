@@ -337,17 +337,27 @@ caption {
     background-color: var(--cor05);
     border: 1px solid black;
     padding: 8px;
+    height: 80px;
+    font-size: 23px;
 }
 
 table {
     border-collapse: collapse;
     margin: 50px auto;
-    width: 80%;
+    width: 70%;
 }
 
 th, td {
     border: 1px solid black;
     padding: 5px;
     text-align: center;
+    height: 80px;
+    font-size: 20px;
+    transition-duration: .4s;
+}
+
+th:hover, td:hover {
+    background-color: var(--cor02);
+    color: white;
 }
 /* FIM */
