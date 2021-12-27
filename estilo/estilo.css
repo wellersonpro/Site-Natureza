@@ -215,12 +215,13 @@ div.espaço p.periodo {
 footer {
     background-color:var(--cor01);
     padding: 8px;
-    height: 50px;
+    height: 75px;
 }
 
 footer p {
     color: white;
     text-align: center;
+    line-height: 50px;
     font-weight: bold;
 }
 
