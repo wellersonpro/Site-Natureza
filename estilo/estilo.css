@@ -82,6 +82,7 @@ header {
     text-align: center;
     height: 37px;
     padding-bottom: 4px;
+    width: 100%;
 }
 
 nav li {
@@ -238,7 +239,8 @@ main#tabela {
     background-color:white;
     margin: 40px auto;
 
-    width: 70%;
+    min-width: 280px;
+    max-width: 780px;
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.438);
     padding: 15px 15px 30px 15px;
 }
