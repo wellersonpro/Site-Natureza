@@ -130,7 +130,12 @@ div#questão select {
 
 div#questão input {
     font-size: 16px;
-    padding: 5px;
+    font-weight: bolder;
+    color: white;
+    padding: 8px;
+    border: none;
+    background-color: var(--cor01);
+    cursor: pointer;
 }
 
 p#lupa {
