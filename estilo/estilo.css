@@ -74,78 +74,189 @@
 
 
 body {
-    background-color: var(--cor02);
+    background-color: var(--cor05);
 }
 
-header {
+/*==============ESTILO DO HEADER==============*/
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: var(--cor01);
-    text-align: center;
-    height: 37px;
-    padding-bottom: 4px;
-    width: 100%;
+    height: 11vh;
 }
 
-nav li {
-    display: inline-block;
+header nav ul {
+    list-style: none;
+    display: flex;
 }
 
-nav li a {
-    text-decoration: none;
-    font-size: 20px;
+header nav ul li {
+    letter-spacing: 2px;
+    margin-left: 12px;
+}
+
+header nav ul li a {
     font-weight: bold;
+    font-size: 21px;
     color: white;
-    padding: 12px;
-    line-height: 34px;
-    transition-duration: 0.2s;
+    text-decoration: none;
+    padding: 37px 15px;
+    transition-duration: .3s;
+}
+
+a#logo01 {
+    font-family: 'primavera-verao';
+    font-size: 80px;
+    text-decoration: none;
+    color: white;
+}
+
+a#logo02 {
+    font-family: 'primavera-verao';
+    font-size: 70px;
+    text-decoration: none;
+    color: white;
+}
+
+a#logo03 {
+    font-family: 'primavera-verao';
+    font-size: 60px;
+    text-decoration: none;
+    color: white;
+}
+
+a#logo04 {
+    font-family: 'primavera-verao';
+    font-size: 70px;
+    text-decoration: none;
+    color: white;
+}
+
+a#logo05 {
+    font-family: 'primavera-verao';
+    font-size: 80px;
+    text-decoration: none;
+    color: white;
 }
 
 nav li a:hover {
-    background-color: var(--cor03);
-    color: var(--cor01);
+    background-color: var(--cor05);
+}
+/*============================================*/
+
+
+/*===============ESTILO DO MAIN===============*/
+section#conteudo {
+    display: flex;
+    justify-content: space-around;
 }
 
-main#home {
-    background-color:white;
-    margin: 40px auto;
-
-    min-width: 280px;
-    max-width: 780px;
-    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.438);
-    padding: 15px 15px 30px 15px;
+table {
+    border-collapse: collapse;
+    width: 420px;
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
 }
 
-main#home img.principal {
-    width: 100%;
+table caption {
+    border-bottom: 2px solid white;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px;
 }
 
-main#home h1,h2 {
+table tr {
+    border-bottom: 2px solid white;
+}
+
+table tr td {
+    padding: 10px;
+}
+
+table tr td.estacoes p{
     text-align: center;
 }
 
-main#home p.textoprincipal {
+table tr td#inverno p{
+    font-family: 'inverno';
+    line-height: 120px;
+    font-size: 75px;
+}
+
+table tr td#primavera p{
+    font-family: 'primavera-verao';
+    line-height: 115px;
+    font-size: 85px;
+    color: green;
+}
+
+table tr td#verao p{
+    font-family: 'primavera-verao';
+    line-height: 110px;
+    font-size: 85px;
+    color: rgb(234, 253, 123);
+}
+
+table tr td#outono p{
+    font-family: 'outono';
+    line-height: 110px;
+    font-size: 70px;
+    color: orange;
+}
+
+section#texto {
+    width: 45%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.37);
+}
+
+section#texto img {
+    display: block;
+    width: 94%;
+    padding: 10px 0px;
+    margin: 10px auto;
+}
+
+section#texto h1 {
+    font-size: 1.8em;
+}
+
+section#texto h2 {
+    font-size: 1.4em;
+}
+
+section#texto h1,h2 {
+    text-align: center;
+}
+
+section#texto p.textoprincipal {
     margin-bottom: 65px;
     text-align: justify;
     padding: 20px 5px;
 }
 
-main#home p.texto {
+section#texto p.texto {
     text-align: justify;
     padding: 20px 5px;
 }
 
-main#home a {
-    text-decoration: none;
-    color:var(--cor01);
+section#texto a.simbolo {
     font-weight: bold;
-    background-color:var(--cor03);
-    padding: 1px 4px 1px 4px;
+    color: black;
 }
 
-main#home a.simbolo:after {
+section#texto a.simbolo:after {
     content: '\00A0\1F517'
 }
 
-main#home a.simbolo:hover {
+section#texto a.simbolo:hover {
     background-color:var(--cor01);
     color: var(--cor03);
 }
@@ -154,64 +265,10 @@ abbr {
     text-decoration: none;
 }
 
-div.espaço {
-    display: inline-block;
-    background-color:var(--cor05);
-    width: 175px;
-    height: 240px;
-    margin: 8px;
-    position: relative;
-    transition-duration: 0.3s;
+table tr td.estacoes:hover {
+    transform: scale(1.40, 1.40);
 }
-
-div.espaço:hover {
-    transform: scale(1.20, 1.20);
-}
-
-div.espaço p#inverno {
-    font-family: 'inverno';
-    font-size: 4em;
-    color: white;
-    position: absolute;
-    top: 15px;
-    left: 48px;
-}
-
-div.espaço p#primavera {
-    font-family: 'primavera-verao';
-    font-size: 4em;
-    color: white;
-    position: absolute;
-    top: 7px;
-    left: 70px;
-}
-
-div.espaço p#verão {
-    font-family: 'primavera-verao';
-    font-size: 4em;
-    color: white;
-    position: absolute;
-    top: 7px;
-    left: 70px;
-}
-
-div.espaço p#outono {
-    font-family: 'outono';
-    font-size: 3em;
-    color: white;
-    position: absolute;
-    top: 17px;
-    left: 65px;
-}
-
-div.espaço p.periodo {
-    text-align: center;
-    margin: 0px 19px;
-    color: white;
-    position: absolute;
-    top: 90px;
-    left: 0px;
-}
+/*============================================*/
 
 footer {
     background-color:var(--cor01);
@@ -235,7 +292,7 @@ footer a {
 
 
 /* ESTILO DA PÁGINA TABELA */
-main#tabela {
+/*main#tabela {
     background-color:white;
     margin: 40px auto;
 
@@ -272,5 +329,5 @@ th, td {
     text-align: center;
     height: 50px;
     font-size: 20px;
-}
+}*/
 /* FIM */
