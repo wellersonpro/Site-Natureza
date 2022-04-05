@@ -147,6 +147,10 @@ nav li a:hover {
 
 
 /*===============ESTILO DO MAIN===============*/
+main {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 section#conteudo {
     display: flex;
     justify-content: space-around;
@@ -154,8 +158,8 @@ section#conteudo {
 
 table {
     border-collapse: collapse;
-    width: 420px;
-    height: 500px;
+    width: 440px;
+    height: 550px;
     margin-top: 20px;
     margin-bottom: 20px;
     color: white;
@@ -164,7 +168,7 @@ table {
 table caption {
     border-bottom: 2px solid white;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 28px;
     padding: 20px;
 }
 
@@ -173,7 +177,12 @@ table tr {
 }
 
 table tr td {
-    padding: 10px;
+    padding: 25px;
+}
+
+table tr td.texto {
+    font-size: 22px;
+    font-weight: bold;
 }
 
 table tr td.estacoes p{
@@ -183,28 +192,32 @@ table tr td.estacoes p{
 table tr td#inverno p{
     font-family: 'inverno';
     line-height: 120px;
-    font-size: 75px;
+    font-size: 95px;
+    cursor: pointer;
 }
 
 table tr td#primavera p{
     font-family: 'primavera-verao';
     line-height: 115px;
-    font-size: 85px;
+    font-size: 105px;
     color: green;
+    cursor: pointer;
 }
 
 table tr td#verao p{
     font-family: 'primavera-verao';
     line-height: 110px;
-    font-size: 85px;
+    font-size: 105px;
     color: rgb(234, 253, 123);
+    cursor: pointer;
 }
 
 table tr td#outono p{
     font-family: 'outono';
     line-height: 110px;
-    font-size: 70px;
+    font-size: 90px;
     color: orange;
+    cursor: pointer;
 }
 
 section#texto {
@@ -268,8 +281,134 @@ abbr {
 table tr td.estacoes:hover {
     transform: scale(1.40, 1.40);
 }
+
+section#carrosel {
+    max-width: 850px;
+    margin: 0px auto 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.37);
+}
+
+section#carrosel img {
+    display: block;
+    width: 80%;
+    margin: 0px auto 10px auto;
+}
+
+section#carrosel div#botoes {
+    /*background-color: skyblue;*/
+    width: 100px;
+    margin: auto;
+    padding: 5px;
+}
+
+section#carrosel div#botoes input.bt {
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid var(--cor05);
+    transition-duration: .4s;
+    cursor: pointer;
+}
+
+section#carrosel div#botoes input.bt:hover {
+    background-color: var(--cor05);
+}
+
+/*=====BUSCAS=====*/
+section#buscas {
+    background-color: white;
+    max-width: 850px;
+    height: 628px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+section#buscas h1 {
+    text-align: center;
+}
+
+section#buscas div {
+    display: flex;
+    /*background-color: blue;*/
+    width: 815px;
+    margin: 10px auto;
+}
+
+section#buscas div input.info {
+    background-color: var(--cor05);
+    border: none;
+    width: 200px;
+    height: 200px;
+}
+
+section#buscas div input.info:hover {
+    font-size: 130px;
+}
+
+input#inverno {
+    font-family: 'inverno';
+    font-size: 90px;
+    margin-right: 5px;
+    transition-duration: .4s;
+    cursor: pointer;
+    color: white;
+}
+
+input#primavera {
+    font-family: 'primavera-verao';
+    font-size: 90px;
+    margin-right: 5px;
+    transition-duration: .4s;
+    cursor: pointer;
+    color: green;
+}
+
+input#verao {
+    font-family: 'primavera-verao';
+    font-size: 90px;
+    margin-right: 5px;
+    transition-duration: .4s;
+    cursor: pointer;
+    color: rgb(234, 253, 123);
+}
+
+input#outono {
+    font-family: 'outono';
+    font-size: 90px;
+    transition-duration: .4s;
+    cursor: pointer;
+    color: orange;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section#buscas div#resultado {
+    display: block;
+    margin: 50px auto;
+    width: 100%;
+}
+
+div#resultado p {
+    font-family: 'formas';
+    font-size: 180px;
+    opacity: 40%;
+    text-align: center;
+}
+/*================*/
+
+
 /*============================================*/
 
+
+/*===============ESTILO DO MAIN===============*/
 footer {
     background-color:var(--cor01);
     padding: 8px;
@@ -286,7 +425,7 @@ footer p {
 footer a {
     color: white;
 }
-
+/*============================================*/
 
 
 

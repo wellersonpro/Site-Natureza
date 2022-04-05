@@ -1,3 +1,24 @@
+function troca01() {
+    let img = document.querySelector('img#trocaImagem');
+
+    img.removeAttribute('src');
+    img.setAttribute('src', 'imagens/pexels-janez-podnar-1424246.jpg');
+}
+
+function troca02() {
+    let img = document.querySelector('img#trocaImagem');
+
+    img.removeAttribute('src');
+    img.setAttribute('src', 'imagens/pexels-janez-podnar-1432959.jpg');
+}
+
+function troca03() {
+    let img = document.querySelector('img#trocaImagem');
+
+    img.removeAttribute('src');
+    img.setAttribute('src', 'imagens/pexels-jonathan-petersson-1237119.jpg');
+}
+
 let nome = document.querySelector("#selecionar");
 let botão = document.querySelector("#botão");
 let res = document.querySelector("#res");

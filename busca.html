@@ -5,11 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buscas</title>
-    <link rel="stylesheet" href="estilo/estilobuscas.css">
+    <link rel="stylesheet" href="estilo/estilo.css">
 </head>
 <body>
     <header>
         <nav>
+            <section id="logo">
+                <a href="#" id="logo01">U</a>
+                <a href="#" id="logo02">U</a>
+                <a href="#" id="logo03">U</a>
+                <a href="#" id="logo04">U</a>
+                <a href="#" id="logo05">U</a>
+            </section>
             <ul>
                 <li><a href="index.html">Home</a>
                 <li><a href="busca.html">Buscas</a>
@@ -18,26 +25,23 @@
         </nav>
     </header>
     <main>
-        <h1>Buscas</h1>
-        <div id="questão">
-            <select name="" id="selecionar">
-                <option></option>
-                <option>Inverno</option>
-                <option>Primavera</option>
-                <option>Verão</option>
-                <option>Outono</option>
-            </select>
+        <section id="buscas">
+            <h1>Estações</h1>
 
-            <input type="button" id="botão" value="Confirmar">
-        </div>
-        <div id="res">
-            <img src="" id="fotoestação" alt="">
-            <p id="lupa">5</p>
-        </div>
+            <div>
+                <input type="button" value="d" class="info" id="inverno">
+                <input type="button" value="J" class="info" id="primavera">
+                <input type="button" value="M" class="info" id="verao">
+                <input type="button" value="e" class="info" id="outono">
+            </div>
+
+            <hr>
+
+            <div id="resultado">
+                <p>5</p>
+            </div>
+        </section>
     </main>
-
-    <script src="javascript/script.js">
-    </script>
 
     <footer>
         <p>Desenvolvido por <a href="https://github.com/wellersonpro" target="_blank">Wellerson</a></p>
