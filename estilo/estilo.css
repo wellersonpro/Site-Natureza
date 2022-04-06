@@ -24,29 +24,81 @@
     format('opentype')
 }
 
+/*===============RESPONSIVIDADE===============*/
+
 @media screen and (max-width: 420px) {
     body header {
-        height: 126px;
+        width: 100vw;
+        height: 39vh;
+        background-color: var(--cor01);
+        overflow: hidden;
     }
-    body header nav li {
+    body header nav {
+        /*background-color: yellow;*/
         display: block;
-        margin: 0px 0px 10px 0px;
-        width: 100%;
+        width: 235px;
+        margin: auto;
+        padding: 8px;
     }
-
-    body main div.espaço {
+    body header nav section#logo {
+        text-align: center;
+    }
+    body header nav ul {
+        display: list-item;
+        text-align: center;
+    }
+    body header nav ul li {
+        margin-top: 20px;
+    }
+    body header nav ul li a {
+        padding: 15px 30px;
+    }
+    body main section#conteudo {
         display: block;
+    }
+    body main section#conteudo table {
+        margin: auto;
+    }
+    body main section#conteudo table caption {
+        font-size: 24px;
+    }
+    body main section#conteudo table tr td#inverno p {
+        font-size: 90px;
+    }
+    body main section#conteudo table tr td#primavera p {
+        font-size: 75px;
+    }
+    body main section#conteudo table tr td#verao p {
+        font-size: 75px;
+    }
+    body main section#conteudo table tr td#outono p {
+        font-size: 60px;
+    }
+    body main section#conteudo table tr td.texto {
+        font-size: 18px;
+        text-align: left;
+        padding: 8px;
+    }
+    body main section#conteudo section#texto {
+        width: 95%;
         margin: 20px auto;
     }
-}
-
-@media screen and (max-width: 580px) {
-    body main div.espaço {
-        display: block;
-        margin: 20px auto;
+    body main section#carrosel div#botoes {
+        width: 60px;
+    }
+    body main section#carrosel div#botoes input.bt {
+        width: 20px;
+        height: 20px;
+    }
+    main section#buscas div input.info {
+        font-size: 50px;
+        height: 100px;
+    }
+    main section#buscas div input.info:hover {
+        font-size: 50px;
     }
 }
-
+/*============================================*/
 
 /*
 #156117
@@ -147,6 +199,8 @@ nav li a:hover {
 
 
 /*===============ESTILO DO MAIN===============*/
+
+/*======HOME======*/
 main {
     padding-left: 10px;
     padding-right: 10px;
@@ -158,7 +212,7 @@ section#conteudo {
 
 table {
     border-collapse: collapse;
-    width: 440px;
+    max-width: 440px;
     height: 550px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -299,9 +353,10 @@ section#carrosel img {
 
 section#carrosel div#botoes {
     /*background-color: skyblue;*/
-    width: 100px;
+    display: flex;
+    width: 90px;
     margin: auto;
-    padding: 5px;
+    /*padding: 5px;*/
 }
 
 section#carrosel div#botoes input.bt {
@@ -317,15 +372,17 @@ section#carrosel div#botoes input.bt {
 section#carrosel div#botoes input.bt:hover {
     background-color: var(--cor05);
 }
+/*================*/
 
 /*=====BUSCAS=====*/
 section#buscas {
     background-color: white;
     max-width: 850px;
-    height: 628px;
+    /*height: 628px;*/
     margin: 20px auto;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.37);
 }
 
 section#buscas h1 {
@@ -335,7 +392,7 @@ section#buscas h1 {
 section#buscas div {
     display: flex;
     /*background-color: blue;*/
-    width: 815px;
+    max-width: 815px;
     margin: 10px auto;
 }
 
@@ -392,15 +449,30 @@ hr {
 
 section#buscas div#resultado {
     display: block;
-    margin: 50px auto;
+    margin: 59.5px auto;
     width: 100%;
 }
 
-div#resultado p {
+div#resultado p#lupa {
     font-family: 'formas';
-    font-size: 180px;
+    font-size: 200px;
     opacity: 40%;
     text-align: center;
+}
+
+section#buscas div#resultado h1 {
+    text-align: center;
+}
+
+section#buscas div#resultado p.textoResultado {
+    text-align: justify;
+    padding: 30px;
+}
+
+section#buscas div#resultado img#ilustra {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
 }
 /*================*/
 
@@ -408,7 +480,7 @@ div#resultado p {
 /*============================================*/
 
 
-/*===============ESTILO DO MAIN===============*/
+/*==============ESTILO DO FOOTER==============*/
 footer {
     background-color:var(--cor01);
     padding: 8px;
@@ -426,47 +498,3 @@ footer a {
     color: white;
 }
 /*============================================*/
-
-
-
-
-/* ESTILO DA PÁGINA TABELA */
-/*main#tabela {
-    background-color:white;
-    margin: 40px auto;
-
-    min-width: 280px;
-    max-width: 780px;
-    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.438);
-    padding: 15px 15px 30px 15px;
-}
-
-caption {
-    background-color: var(--cor01);
-    border: 1px solid black;
-    padding: 8px;
-    height: 40px;
-    font-size: 23px;
-    color: white;
-    line-height: 40px;
-}
-
-table {
-    border-collapse: collapse;
-    margin: 50px auto;
-    width: 65%;
-}
-
-th {
-    background-color: var(--cor01);
-    color: white;
-}
-
-th, td {
-    border: 1px solid black;
-    padding: 5px;
-    text-align: center;
-    height: 50px;
-    font-size: 20px;
-}*/
-/* FIM */
