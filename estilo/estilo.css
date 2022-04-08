@@ -25,8 +25,171 @@
 }
 
 /*===============RESPONSIVIDADE===============*/
+@media screen and (max-width: 820px) {
+    body main section#conteudo table {
+        margin-right: 10px;
+        width: 380px;
+    }
+    body main section#conteudo table caption {
+        padding: 10px;
+    }
+    body main section#conteudo table tr td {
+        padding: 10px;
+    }
+    body main section#conteudo table tr td.texto {
+        font-size: 18px;
+        word-spacing: 2px;
+    }
+}
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 540px) {
+    body header {
+        width: 100vw;
+        height: 35vh;
+        background-color: var(--cor01);
+        overflow: hidden;
+    }
+    body header nav {
+        /*background-color: yellow;*/
+        display: block;
+        width: 235px;
+        margin: auto;
+        padding: 8px;
+    }
+    body header nav section#logo {
+        text-align: center;
+    }
+    body header nav ul {
+        display: list-item;
+        text-align: center;
+    }
+    body header nav ul li {
+        margin-top: 20px;
+    }
+    body header nav ul li a {
+        padding: 15px 30px;
+    }
+    body main section#conteudo {
+        display: block;
+    }
+    body main section#conteudo table {
+        margin: auto;
+        width: 90%;
+    }
+    body main section#conteudo table caption {
+        font-size: 24px;
+    }
+    body main section#conteudo table tr td#inverno p {
+        font-size: 90px;
+    }
+    body main section#conteudo table tr td#primavera p {
+        font-size: 75px;
+    }
+    body main section#conteudo table tr td#verao p {
+        font-size: 75px;
+    }
+    body main section#conteudo table tr td#outono p {
+        font-size: 60px;
+    }
+    body main section#conteudo table tr td.texto {
+        font-size: 18px;
+        text-align: left;
+        padding: 8px;
+    }
+    body main section#conteudo section#texto {
+        width: 95%;
+        margin: 20px auto;
+    }
+    body main section#carrosel div#botoes {
+        width: 60px;
+    }
+    body main section#carrosel div#botoes input.bt {
+        width: 20px;
+        height: 20px;
+    }
+    main section#buscas div input.info {
+        font-size: 50px;
+        height: 100px;
+    }
+    main section#buscas div input.info:hover {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    body header {
+        width: 100vw;
+        height: 30vh;
+        background-color: var(--cor01);
+        overflow: hidden;
+    }
+    body header nav {
+        /*background-color: yellow;*/
+        display: block;
+        width: 235px;
+        margin: auto;
+        padding: 8px;
+    }
+    body header nav section#logo {
+        text-align: center;
+    }
+    body header nav ul {
+        display: list-item;
+        text-align: center;
+    }
+    body header nav ul li {
+        margin-top: 20px;
+    }
+    body header nav ul li a {
+        padding: 15px 30px;
+    }
+    body main section#conteudo {
+        display: block;
+    }
+    body main section#conteudo table {
+        margin: auto;
+    }
+    body main section#conteudo table caption {
+        font-size: 24px;
+    }
+    body main section#conteudo table tr td#inverno p {
+        font-size: 90px;
+    }
+    body main section#conteudo table tr td#primavera p {
+        font-size: 75px;
+    }
+    body main section#conteudo table tr td#verao p {
+        font-size: 75px;
+    }
+    body main section#conteudo table tr td#outono p {
+        font-size: 60px;
+    }
+    body main section#conteudo table tr td.texto {
+        font-size: 18px;
+        text-align: left;
+        padding: 8px;
+    }
+    body main section#conteudo section#texto {
+        width: 95%;
+        margin: 20px auto;
+    }
+    body main section#carrosel div#botoes {
+        width: 60px;
+    }
+    body main section#carrosel div#botoes input.bt {
+        width: 20px;
+        height: 20px;
+    }
+    main section#buscas div input.info {
+        font-size: 50px;
+        height: 100px;
+    }
+    main section#buscas div input.info:hover {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 375px) {
     body header {
         width: 100vw;
         height: 39vh;
@@ -96,6 +259,29 @@
     }
     main section#buscas div input.info:hover {
         font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    body header {
+        width: 100vw;
+    }
+    body main {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    body main section#conteudo table {
+        width: 99%;
+    }
+    body main section#conteudo table tr td.texto {
+        font-size: 12px;
+    }
+    body main section#conteudo table tr td.estacoes {
+        padding: 5px;
+    }
+    body main section#conteudo section#texto {
+        width: 92%;
+        margin: 20px auto;
     }
 }
 /*============================================*/
