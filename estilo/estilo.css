@@ -376,7 +376,7 @@
     --cor01: #156117;
     --cor02: #77E679;
     --cor03: #31E035;
-    --cor04: #326133;
+    --cor04: #007580;
     --cor05: #1bdfc5;
     
 }
@@ -734,6 +734,72 @@ section#buscas div#resultado img#ilustra {
 }
 /*================*/
 
+
+/*====Contato=====*/
+section#formulario {
+    background-color: white;
+    max-width: 850px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.37);
+}
+
+section#formulario fieldset {
+    border: 3px solid var(--cor04);
+    border-radius: 10px;
+}
+
+section#formulario fieldset legend {
+    background-color: var(--cor04);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+section#formulario fieldset form {
+    width: 65%;
+    margin: 20px auto;
+}
+
+section#formulario fieldset form input.pessoa {
+    width: 97.5%;
+    height: 28px;
+    border-radius: 8px;
+    margin: 15px auto;
+    padding: 5px;
+    font-size: 16px;
+}
+
+section#formulario fieldset form textarea {
+    width: 97.6%;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+section#formulario p {
+    opacity: 50%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+section#formulario fieldset form button {
+    display: block;
+    background-color: var(--cor04);
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+/*================*/
 
 /*============================================*/
 
