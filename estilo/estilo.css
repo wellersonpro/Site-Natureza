@@ -68,7 +68,6 @@
         overflow: hidden;
     }
     body header nav {
-        /*background-color: yellow;*/
         display: block;
         width: 235px;
         margin: auto;
@@ -152,7 +151,6 @@
         overflow: hidden;
     }
     body header nav {
-        /*background-color: yellow;*/
         display: block;
         width: 235px;
         margin: auto;
@@ -235,7 +233,6 @@
         overflow: hidden;
     }
     body header nav {
-        /*background-color: yellow;*/
         display: block;
         width: 235px;
         margin: auto;
@@ -610,11 +607,9 @@ section#carrosel img {
 }
 
 section#carrosel div#botoes {
-    /*background-color: skyblue;*/
     display: flex;
     width: 90px;
     margin: auto;
-    /*padding: 5px;*/
 }
 
 section#carrosel div#botoes input.bt {
@@ -636,7 +631,6 @@ section#carrosel div#botoes input.bt:hover {
 section#buscas {
     background-color: white;
     max-width: 850px;
-    /*height: 628px;*/
     margin: 20px auto;
     padding: 10px;
     border-radius: 10px;
@@ -649,7 +643,6 @@ section#buscas h1 {
 
 section#buscas div {
     display: flex;
-    /*background-color: blue;*/
     max-width: 815px;
     margin: 10px auto;
 }
@@ -815,7 +808,6 @@ footer {
 }
 
 footer section#sobre {
-    /*background-color: blue;*/
     width: 300px;
     height: 100px;
     padding: 10px;
@@ -833,7 +825,6 @@ footer section#sobre p {
 footer section#sobre02 p#nome {
     color: white;
     text-align: center;
-    /*line-height: 50px;*/
     font-weight: bold;
     font-size: 18px;
 }
