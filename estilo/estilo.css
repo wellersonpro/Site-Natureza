@@ -2,26 +2,22 @@
 
 @font-face {
     font-family: 'inverno';
-    src: url(../fontes/inverno/Mountain.ttf)
-    format('opentype')
+    src: url(../fontes/inverno/Mountain.ttf) format('opentype')
 }
 
 @font-face {
     font-family: 'primavera-verao';
-    src: url(../fontes/primaveraeverao/Tree\ Icons.otf)
-    format('truetype')
+    src: url(../fontes/primaveraeverao/Tree\ Icons.otf) format('truetype')
 }
 
 @font-face {
     font-family: 'outono';
-    src: url(../fontes/outono/wmleaves1.TTF)
-    format('opentype')
+    src: url(../fontes/outono/wmleaves1.TTF) format('opentype')
 }
 
 @font-face {
     font-family: 'formas';
-    src: url(../fontes/e_commerce/E-commerce.ttf)
-    format('opentype')
+    src: url(../fontes/e_commerce/E-commerce.ttf) format('opentype')
 }
 
 /*===============RESPONSIVIDADE===============*/
@@ -31,30 +27,38 @@
         min-height: 100vh;
         flex-direction: column;
     }
+
     body.site main {
         flex-grow: 1;
     }
 }
+
 @media screen and (max-width: 820px) {
     body main section#conteudo table {
         margin-right: 10px;
         width: 380px;
     }
+
     body main section#conteudo table caption {
         padding: 10px;
     }
+
     body main section#conteudo table tr td {
         padding: 10px;
     }
+
     body main section#conteudo table tr td.texto {
         font-size: 18px;
         word-spacing: 2px;
     }
+
     body.site {
         display: flex;
-        min-height: 100vh; /* Mínimo de altura */
+        min-height: 100vh;
+        /* Mínimo de altura */
         flex-direction: column;
     }
+
     body.site main {
         flex-grow: 1;
     }
@@ -67,77 +71,98 @@
         background-color: var(--cor01);
         overflow: hidden;
     }
+
     body header nav {
         display: block;
         width: 235px;
         margin: auto;
         padding: 8px;
     }
+
     body header nav section#logo {
         text-align: center;
     }
+
     body header nav ul {
         display: list-item;
         text-align: center;
     }
+
     body header nav ul li {
         margin-top: 20px;
     }
+
     body header nav ul li a {
         padding: 15px 30px;
     }
+
     body main section#conteudo {
         display: block;
     }
+
     body main section#conteudo table {
         margin: auto;
         width: 90%;
     }
+
     body main section#conteudo table caption {
         font-size: 24px;
     }
+
     body main section#conteudo table tr td#inverno p {
         font-size: 90px;
     }
+
     body main section#conteudo table tr td#primavera p {
         font-size: 75px;
     }
+
     body main section#conteudo table tr td#verao p {
         font-size: 75px;
     }
+
     body main section#conteudo table tr td#outono p {
         font-size: 60px;
     }
+
     body main section#conteudo table tr td.texto {
         font-size: 18px;
         text-align: left;
         padding: 8px;
     }
+
     body main section#conteudo section#texto {
         width: 95%;
         margin: 20px auto;
     }
+
     body main section#carrosel div#botoes {
         width: 60px;
     }
+
     body main section#carrosel div#botoes input.bt {
         width: 20px;
         height: 20px;
     }
+
     main section#buscas div input.info {
         font-size: 50px;
         height: 100px;
     }
+
     main section#buscas div input.info:hover {
         font-size: 50px;
     }
+
     body footer {
         display: block;
         height: 32vh;
     }
+
     body footer section#sobre {
         margin: 5px auto 40px auto;
     }
+
     body footer section#sobre h1 {
         text-align: center;
     }
@@ -150,76 +175,97 @@
         background-color: var(--cor01);
         overflow: hidden;
     }
+
     body header nav {
         display: block;
         width: 235px;
         margin: auto;
         padding: 8px;
     }
+
     body header nav section#logo {
         text-align: center;
     }
+
     body header nav ul {
         display: list-item;
         text-align: center;
     }
+
     body header nav ul li {
         margin-top: 20px;
     }
+
     body header nav ul li a {
         padding: 15px 30px;
     }
+
     body main section#conteudo {
         display: block;
     }
+
     body main section#conteudo table {
         margin: auto;
     }
+
     body main section#conteudo table caption {
         font-size: 24px;
     }
+
     body main section#conteudo table tr td#inverno p {
         font-size: 90px;
     }
+
     body main section#conteudo table tr td#primavera p {
         font-size: 75px;
     }
+
     body main section#conteudo table tr td#verao p {
         font-size: 75px;
     }
+
     body main section#conteudo table tr td#outono p {
         font-size: 60px;
     }
+
     body main section#conteudo table tr td.texto {
         font-size: 18px;
         text-align: left;
         padding: 8px;
     }
+
     body main section#conteudo section#texto {
         width: 95%;
         margin: 20px auto;
     }
+
     body main section#carrosel div#botoes {
         width: 60px;
     }
+
     body main section#carrosel div#botoes input.bt {
         width: 20px;
         height: 20px;
     }
+
     main section#buscas div input.info {
         font-size: 50px;
         height: 100px;
     }
+
     main section#buscas div input.info:hover {
         font-size: 50px;
     }
+
     body footer {
         display: block;
         height: 25vh;
     }
+
     body footer section#sobre {
         margin: 5px auto 25px auto;
     }
+
     body footer section#sobre h1 {
         text-align: center;
     }
@@ -232,76 +278,97 @@
         background-color: var(--cor01);
         overflow: hidden;
     }
+
     body header nav {
         display: block;
         width: 235px;
         margin: auto;
         padding: 8px;
     }
+
     body header nav section#logo {
         text-align: center;
     }
+
     body header nav ul {
         display: list-item;
         text-align: center;
     }
+
     body header nav ul li {
         margin-top: 20px;
     }
+
     body header nav ul li a {
         padding: 15px 30px;
     }
+
     body main section#conteudo {
         display: block;
     }
+
     body main section#conteudo table {
         margin: auto;
     }
+
     body main section#conteudo table caption {
         font-size: 24px;
     }
+
     body main section#conteudo table tr td#inverno p {
         font-size: 90px;
     }
+
     body main section#conteudo table tr td#primavera p {
         font-size: 75px;
     }
+
     body main section#conteudo table tr td#verao p {
         font-size: 75px;
     }
+
     body main section#conteudo table tr td#outono p {
         font-size: 60px;
     }
+
     body main section#conteudo table tr td.texto {
         font-size: 18px;
         text-align: left;
         padding: 8px;
     }
+
     body main section#conteudo section#texto {
         width: 95%;
         margin: 20px auto;
     }
+
     body main section#carrosel div#botoes {
         width: 60px;
     }
+
     body main section#carrosel div#botoes input.bt {
         width: 20px;
         height: 20px;
     }
+
     main section#buscas div input.info {
         font-size: 50px;
         height: 100px;
     }
+
     main section#buscas div input.info:hover {
         font-size: 50px;
     }
+
     body footer {
         display: block;
         height: 30vh;
     }
+
     body footer section#sobre {
         margin: 5px auto 25px auto;
     }
+
     body footer section#sobre h1 {
         text-align: center;
     }
@@ -311,48 +378,61 @@
     body header {
         width: 100vw;
     }
+
     body main {
         padding-left: 0;
         padding-right: 0;
     }
+
     body main section#conteudo table {
         width: 99%;
     }
+
     body main section#conteudo table tr td.texto {
         font-size: 12px;
     }
+
     body main section#conteudo table tr td.estacoes {
         padding: 5px;
     }
+
     body main section#conteudo section#texto {
         width: 92%;
         margin: 20px auto;
     }
+
     body main section#buscas div input#inverno {
         width: 23.9%;
         font-size: 45px;
     }
+
     body main section#buscas div#resultado p#lupa {
         font-size: 120px;
     }
+
     body footer {
         display: block;
         height: 45vh;
     }
+
     body footer section#sobre {
         width: 200px;
     }
+
     body footer section#sobre h1 {
         font-size: 19px;
     }
+
     body footer section#sobre p {
         font-size: 16px;
     }
+
     body footer section#sobre02 {
         margin-top: 80px;
         padding: 5px;
     }
 }
+
 /*============================================*/
 
 /*
@@ -363,19 +443,19 @@
 #26AD28
 */
 
-*{
+* {
     padding: 0px;
     margin: 0px;
     font-family: sans-serif;
 }
 
-:root{
+:root {
     --cor01: #156117;
     --cor02: #77E679;
     --cor03: #31E035;
     --cor04: #007580;
     --cor05: #1bdfc5;
-    
+
 }
 
 
@@ -450,6 +530,7 @@ a#logo05 {
 nav li a:hover {
     background-color: var(--cor05);
 }
+
 /*============================================*/
 
 
@@ -460,6 +541,7 @@ main {
     padding-left: 10px;
     padding-right: 10px;
 }
+
 section#conteudo {
     display: flex;
     justify-content: space-around;
@@ -494,18 +576,18 @@ table tr td.texto {
     font-weight: bold;
 }
 
-table tr td.estacoes p{
+table tr td.estacoes p {
     text-align: center;
 }
 
-table tr td#inverno p{
+table tr td#inverno p {
     font-family: 'inverno';
     line-height: 120px;
     font-size: 95px;
     cursor: pointer;
 }
 
-table tr td#primavera p{
+table tr td#primavera p {
     font-family: 'primavera-verao';
     line-height: 115px;
     font-size: 105px;
@@ -513,7 +595,7 @@ table tr td#primavera p{
     cursor: pointer;
 }
 
-table tr td#verao p{
+table tr td#verao p {
     font-family: 'primavera-verao';
     line-height: 110px;
     font-size: 105px;
@@ -521,7 +603,7 @@ table tr td#verao p{
     cursor: pointer;
 }
 
-table tr td#outono p{
+table tr td#outono p {
     font-family: 'outono';
     line-height: 110px;
     font-size: 90px;
@@ -554,7 +636,8 @@ section#texto h2 {
     font-size: 1.4em;
 }
 
-section#texto h1,h2 {
+section#texto h1,
+h2 {
     text-align: center;
 }
 
@@ -579,7 +662,7 @@ section#texto a.simbolo:after {
 }
 
 section#texto a.simbolo:hover {
-    background-color:var(--cor01);
+    background-color: var(--cor01);
     color: var(--cor03);
 }
 
@@ -625,6 +708,7 @@ section#carrosel div#botoes input.bt {
 section#carrosel div#botoes input.bt:hover {
     background-color: var(--cor05);
 }
+
 /*================*/
 
 /*=====BUSCAS=====*/
@@ -725,6 +809,7 @@ section#buscas div#resultado img#ilustra {
     width: 80%;
     margin: 20px auto;
 }
+
 /*================*/
 
 
@@ -792,6 +877,7 @@ section#formulario fieldset form button {
     border: none;
     border-radius: 8px;
 }
+
 /*================*/
 
 /*============================================*/
@@ -802,7 +888,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:var(--cor01);
+    background-color: var(--cor01);
     padding: 8px;
     height: 19vh;
 }
@@ -832,4 +918,5 @@ footer section#sobre02 p#nome {
 footer section#sobre02 a {
     color: white;
 }
+
 /*============================================*/
