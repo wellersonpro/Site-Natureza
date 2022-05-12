@@ -450,18 +450,15 @@
 }
 
 :root {
-    --cor01: #156117;
-    --cor02: #77E679;
-    --cor03: #31E035;
-    --cor04: #007580;
-    --cor05: #1bdfc5;
+    --cor01: #80F2E7;
+    --cor02: #518C51;
+    --cor03: #323D40;
 
 }
 
 
-
 body {
-    background-color: var(--cor05);
+    background-color: var(--cor01);
 }
 
 /*==============ESTILO DO HEADER==============*/
@@ -469,7 +466,7 @@ header nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--cor01);
+    background-color: var(--cor03);
     height: 11vh;
 }
 
@@ -496,39 +493,40 @@ a#logo01 {
     font-family: 'primavera-verao';
     font-size: 80px;
     text-decoration: none;
-    color: white;
+    color: var(--cor02);
 }
 
 a#logo02 {
     font-family: 'primavera-verao';
     font-size: 70px;
     text-decoration: none;
-    color: white;
+    color: var(--cor02);
 }
 
 a#logo03 {
     font-family: 'primavera-verao';
     font-size: 60px;
     text-decoration: none;
-    color: white;
+    color: var(--cor02);
 }
 
 a#logo04 {
     font-family: 'primavera-verao';
     font-size: 70px;
     text-decoration: none;
-    color: white;
+    color: var(--cor02);
 }
 
 a#logo05 {
     font-family: 'primavera-verao';
     font-size: 80px;
     text-decoration: none;
-    color: white;
+    color: var(--cor02);
 }
 
 nav li a:hover {
-    background-color: var(--cor05);
+    background-color: var(--cor01);
+    color: var(--cor03)
 }
 
 /*============================================*/
@@ -691,7 +689,8 @@ section#carrosel img {
 
 section#carrosel div#botoes {
     display: flex;
-    width: 90px;
+    justify-content: space-around;
+    width: 120px;
     margin: auto;
 }
 
@@ -700,13 +699,13 @@ section#carrosel div#botoes input.bt {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    border: 2px solid var(--cor05);
+    border: 2px solid var(--cor02);
     transition-duration: .4s;
     cursor: pointer;
 }
 
 section#carrosel div#botoes input.bt:hover {
-    background-color: var(--cor05);
+    background-color: var(--cor02);
 }
 
 /*================*/
@@ -732,10 +731,11 @@ section#buscas div {
 }
 
 section#buscas div input.info {
-    background-color: var(--cor05);
+    background-color: var(--cor01);
     border: none;
     width: 200px;
     height: 200px;
+    box-shadow: inset 2px 2px 12px 0px rgba(0, 0, 0, 0.192);
 }
 
 section#buscas div input.info:hover {
@@ -824,12 +824,12 @@ section#formulario {
 }
 
 section#formulario fieldset {
-    border: 3px solid var(--cor04);
+    border: 3px solid var(--cor02);
     border-radius: 10px;
 }
 
 section#formulario fieldset legend {
-    background-color: var(--cor04);
+    background-color: var(--cor02);
     border-radius: 10px;
     padding: 10px;
     text-align: center;
@@ -867,7 +867,7 @@ section#formulario p {
 
 section#formulario fieldset form button {
     display: block;
-    background-color: var(--cor04);
+    background-color: var(--cor02);
     width: 80%;
     margin: 20px auto;
     padding: 10px;
@@ -888,7 +888,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--cor01);
+    background-color: var(--cor03);
     padding: 8px;
     height: 19vh;
 }
