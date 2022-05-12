@@ -68,7 +68,7 @@
     body header {
         width: 100vw;
         height: 35vh;
-        background-color: var(--cor01);
+        background-color: var(--cor03);
         overflow: hidden;
     }
 
@@ -275,7 +275,7 @@
     body header {
         width: 100vw;
         height: 39vh;
-        background-color: var(--cor01);
+        background-color: var(--cor03);
         overflow: hidden;
     }
 
